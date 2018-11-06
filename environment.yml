@@ -4,9 +4,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=2.7
   - brian2
   - brian2tools
   - matplotlib
   - nose
   - ipython
   - jupyter
+  - cython=0.29
